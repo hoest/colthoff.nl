@@ -1,0 +1,20 @@
+[[ include file="colthoff.nl/_sub_header.html" ]]
+[[ include file="colthoff.nl/_sub_sidebar.html" ]]
+        <div id="main">
+          <div class="text">
+            <article>
+              <h1>[[title]]</h1>
+              [[if $entry.subtitle != "" ]]<h2>[[subtitle]]</h2>[[/if]]
+              [[ introduction ]]
+              [[ body ]]
+              <div class="meta">
+                [[ user field=emailtonick ]] |
+                [[ date format="%dayname% %day% %monthname% %year% om %hour24%&#58;%minute%" ]] |
+                [[ permalink text="&para;" title="Permanente link" ]]
+              </div>
+            </article>
+          </div>
+          <div id="comma"></div>
+          <div id="imagebarWeblog"></div>
+        </div>
+[[ include file="colthoff.nl/_sub_footer.html" ]]

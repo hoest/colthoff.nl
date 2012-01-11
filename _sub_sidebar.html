@@ -1,0 +1,32 @@
+        <nav>
+          <ul id="navigation">
+          [[ pagelist
+             chapterbegin=''
+             pages='<li><a href="%link%" title="%subtitle%">%title%</a></li>'
+             chapterend=''
+             isactive='class="selected"'
+             onlychapter='Hoofdnavigatie'
+          ]]
+          [[ weblog_list
+             format='<li><a href="%link%" title="%payoff%">%display%</a></li>'
+             current='class="selected"'
+          ]]
+            <li>
+              [[ link page="koffie" ]]
+            </li>
+            <li>
+              [[ link page="contact" ]]
+            </li>
+          </ul>
+          <ul id="socialMedia">
+            <li>
+              <a class="external" href="http://nl.linkedin.com/pub/frans-colthoff/0/287/56a" title="LinkedIn"><img src="[[ template_dir ]]images/linkedin.png" width="16" height="16" alt="LinkedIn" /></a>
+            </li>
+            <li>
+              <a class="external" href="http://www.facebook.com/pages/Colthoff-Communicatie/171209919595817" title="Facebook"><img src="[[ template_dir ]]images/facebook.png" width="16" height="16" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a class="external" href="http://twitter.com/franscolthoff" title="Twitter"><img src="[[ template_dir ]]images/twitter.png" width="16" height="16" alt="Twitter" /></a>
+            </li>
+          </ul>
+        </nav>

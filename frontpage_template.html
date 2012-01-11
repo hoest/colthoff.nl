@@ -1,0 +1,26 @@
+[[ include file="colthoff.nl/_sub_header.html" ]]
+[[ include file="colthoff.nl/_sub_sidebar.html" ]]
+        <div id="main">
+          <div class="text">
+            <!-- begin of weblog 'standard' -->
+            [[ subweblog name="standard" ]][[ literal ]]
+            <article>
+              <h1><a href="[[ link hrefonly=1 ]]">[[ title ]]</a></h1>
+              [[if $entry.subtitle != "" ]]<h2>[[subtitle]]</h2>[[/if]]
+              [[ introduction ]]
+              <p>[[ more ]]</p>
+              <div class="meta">
+                [[ user field=emailtonick ]] |
+                [[ date format="%dayname% %day% %monthname% %year% om %hour24%&#58;%minute%" ]] |
+                [[ permalink text="&para;" title="Permanente link" ]]
+              </div>
+            </article>
+            [[ /literal ]][[ /subweblog ]]
+            <div class="pager">
+              [[ paging action='prev' ]] | [[ paging action='curr' ]] | [[ paging action='next' ]]
+            </div>
+          </div>
+          <div id="comma"></div>
+          <div id="imagebarWeblog"></div>
+        </div>
+[[ include file="colthoff.nl/_sub_footer.html" ]]

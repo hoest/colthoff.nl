@@ -1,0 +1,28 @@
+      </div>
+    </div> <!--! end of #container -->
+    <footer>
+      <div class="disclaimer">
+        &#169; 2011 - Colthoff Communicatie - [[ link page="disclaimer" ]] - [[ link page="leveringsvoorwaarden" ]] - [[ link page="route" ]]
+      </div>
+    </footer>
+    <!-- Javascript at the bottom for fast page loading -->
+    <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="[[ template_dir ]]js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+    <!-- scripts concatenated and minified via ant build script-->
+    <script src="[[ template_dir ]]js/cufon-yui.js"></script>
+    <script src="[[ template_dir ]]js/CenturyGothic_400.font.js"></script>
+    <script src="[[ template_dir ]]js/plugins.js"></script>
+    <script src="[[ template_dir ]]js/script.js"></script>
+    <script>
+      Cufon.replace('.text h1');
+      Cufon.replace('.text h2');
+      Cufon.replace('#navigation a');
+    </script>
+    <!-- end concatenated and minified scripts-->
+    <!--[if lt IE 7 ]>
+      <script src="[[ template_dir ]]js/libs/dd_belatedpng.js"></script>
+      <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+    <![endif]-->
+  </body>
+</html>

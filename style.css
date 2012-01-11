@@ -1,0 +1,282 @@
+/*
+Theme Name:
+Theme URI:
+Description:
+Version:
+Date:
+Author:
+Author URI:
+License:
+Required PivotX version:
+Used Extensions:
+*/
+
+ /* Primary Styles
+    Author:
+ */
+
+/*
+ * Media queries for responsive design
+ * These follow after primary styles so they will successfully override.
+ */
+body {
+  background-color: #003B8B;
+  background-image: url('./images/background.gif');
+  background-repeat: repeat-x;
+  text-align: center;
+  color: #ffffff;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+  position: relative;
+}
+
+nav {
+  background-color: #E4368B;
+  text-align: right;
+  position: relative;
+  height: 20px;
+}
+
+nav ul#navigation {
+  right: 60px!important;
+  position:absolute;
+}
+
+nav ul#navigation li {
+  float: left;
+}
+
+nav ul#navigation a:visited,
+nav ul#navigation a:active,
+nav ul#navigation a {
+  font-family: 'Century Gothic', Verdana, sans-serif;;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul#navigation a.selected,
+nav ul#navigation a:hover {
+  background-color: #003B8B;
+  color: #ffffff;
+}
+
+nav ul#socialMedia {
+  right: 0px!important;
+  position:absolute;
+}
+
+nav ul#socialMedia li {
+  float: left;
+  padding: 2px;
+}
+
+#block {
+  width: 560px;
+  position: relative;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  /* afgeronde hoeken */
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  -webkit-border-top-left-radius: 1em;
+  -webkit-border-top-right-radius: 1em;
+  -webkit-border-bottom-left-radius: 1em;
+  -webkit-border-bottom-right-radius: 1em;
+  -moz-border-radius-topleft: 1em;
+  -moz-border-radius-topright: 1em;
+  -moz-border-radius-bottomleft: 1em;
+  -moz-border-radius-bottomright: 1em;
+}
+
+#block .text {
+  padding: 10px;
+}
+
+#block header {
+  background-image: url('./images/colthoff_logo.png');
+  background-repeat: no-repeat;
+  background-position: 285px 0px;
+  height: 100px;
+}
+
+#block header h1 {
+  display: none;
+}
+
+#block div#main {
+  padding-left: 75px;
+  padding-bottom: 1em;
+}
+
+.text .meta {
+  font-size: .8em;
+  color: #999999;
+  text-align:right;
+  margin-bottom: 1em;
+}
+
+#comma {
+  background-image: url('./images/comma.png');
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  left: -105px;
+  bottom: -50px;
+}
+
+#imagebar {
+  background-image: url('./images/kuikens.png');
+}
+
+#imagebarWeblog {
+  background-image: url('./images/punaises.png');
+}
+
+#imagebarWeblog,
+#imagebar {
+  height: 150px;
+  text-align: right;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+#block div#main .text h1 a {
+  color: #E4368B;
+}
+
+#block div#main .text h1 {
+  font-family: 'Century Gothic', Verdana, sans-serif;;
+  color: #E4368B;
+  font-size: 1.5em;
+  border-bottom: 1px solid #003B8B;
+  margin-bottom: .5em;
+  text-align: right;
+  font-weight: normal;
+}
+
+#block div#main .text h2 {
+  font-family: 'Century Gothic', Verdana, sans-serif;;
+  color: #E4368B;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+  font-weight: normal;
+}
+
+#block div#main ol,
+#block div#main ul,
+#block div#main p {
+  margin-bottom: 1em;
+}
+
+.pager {
+  text-align: center;
+}
+
+.disclaimer {
+  font-size: .8em;
+}
+
+.disclaimer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.disclaimer a:hover {
+  text-decoration: underline;
+}
+
+form .formRow .label {
+  float: left;
+  width: 100px;
+  font-weight: bold;
+}
+
+form .formRow .field {
+  display: inline;
+  width: 200px;
+}
+
+form .formRowQuestion .field textarea,
+form .formRow .field input.textInput {
+  width: 300px;
+}
+
+form .formRowQuestion .field textarea#uitgebreidevraag {
+  display: none;
+}
+
+form .formRowQuestion .field textarea {
+  height: 5em;
+}
+
+form .formRow,
+form .formRowQuestion {
+  clear: both;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form .formRowQuestion .label {
+  width: 200px;
+  font-weight: bold;
+  display: inline;
+}
+
+form .formRowQuestion .field {
+  float: left;
+  width: 20px;
+  margin-left: 100px;
+}
+
+@media all and (orientation:portrait) {
+  /* Style adjustments for portrait mode goes here */
+
+}
+
+@media all and (orientation:landscape) {
+  /* Style adjustments for landscape mode goes here */
+
+}
+
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)
+   Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+
+
+  /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
+     j.mp/textsizeadjust
+  html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+/*
+ * print styles
+ * inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/
+ */
+@media print {
+  * { background: transparent !important; color: #444 !important; text-shadow: none !important; }
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a:after { content: " (" attr(href) ")"; }
+  abbr:after { content: " (" attr(title) ")"; }
+  .ir a:after { content: ""; }  /* Don't show links for images */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
