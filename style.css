@@ -136,7 +136,7 @@ nav ul#socialMedia li {
   height: 105px;
   position: absolute;
   left: -52px;
-  bottom: 275px;
+  bottom: 205px;
 }
 
 #gevorderd {
@@ -145,16 +145,16 @@ nav ul#socialMedia li {
   height: 105px;
   position: absolute;
   left: -52px;
-  bottom: 170px;
+  bottom: 90px;
 }
 
 #comma {
-  background-image: url('./images/comma.png');
-  width: 210px;
-  height: 210px;
+  background-image: url('./images/comma-small.png');
+  width: 105px;
+  height: 105px;
   position: absolute;
-  left: -105px;
-  bottom: -50px;
+  left: -52px;
+  bottom: -25px;
 }
 
 #imagebar {
