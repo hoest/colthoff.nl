@@ -9,6 +9,18 @@ $(function() {
     'cursor': 'pointer'
   });
 
+  $('#beginners').click(function() {
+    window.open('http://www.colthoffcommunicatie.nl/pivotx/templates/colthoff.nl/pdf/training-beginners.pdf');
+  }).css({
+    'cursor': 'pointer'
+  }).attr('title', 'Presentatietraining voor beginners');
+
+  $('#gevorderd').click(function() {
+    window.open('http://www.colthoffcommunicatie.nl/pivotx/templates/colthoff.nl/pdf/training-gevorderden.pdf');
+  }).css({
+    'cursor': 'pointer'
+  }).attr('title', 'Presentatietraining voor gevorderden');
+
   $('.pivotx-download').each(openInNewWindow);
   $('.external').each(openInNewWindow);
 });

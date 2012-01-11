@@ -132,19 +132,19 @@ nav ul#socialMedia li {
 
 #beginners {
   background-image: url('./images/beginners.png');
-  width: 210px;
-  height: 210px;
+  width: 105px;
+  height: 105px;
   position: absolute;
-  left: -105px;
-  bottom: 390px;
+  left: -52px;
+  bottom: 275px;
 }
 
 #gevorderd {
   background-image: url('./images/gevorderd.png');
-  width: 210px;
-  height: 210px;
+  width: 105px;
+  height: 105px;
   position: absolute;
-  left: -105px;
+  left: -52px;
   bottom: 170px;
 }
 
