@@ -130,6 +130,24 @@ nav ul#socialMedia li {
   margin-bottom: 1em;
 }
 
+#beginners {
+  background-image: url('./images/beginners.png');
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  left: -105px;
+  bottom: 390px;
+}
+
+#gevorderd {
+  background-image: url('./images/gevorderd.png');
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  left: -105px;
+  bottom: 170px;
+}
+
 #comma {
   background-image: url('./images/comma.png');
   width: 210px;
